@@ -43,7 +43,7 @@ void RunSystem(){
 			}
 			break;
 		case MANUAL_MODE:
-//			fsm_manual_run();
+			fsm_manual_run();
 			if(Button1IsPressed()){
 				status = TUNING_MODE;
 				setTimer3(100);
@@ -51,7 +51,7 @@ void RunSystem(){
 			}
 			break;
 		case TUNING_MODE:
-//			fsm_tuning_run();
+			fsm_tuning_run();
 			if(Button1IsPressed()){
 				status = AUTOMATIC_MODE;
 				turnOffAllLed();

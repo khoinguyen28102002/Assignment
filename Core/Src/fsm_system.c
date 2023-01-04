@@ -25,7 +25,7 @@ void RunSystem(){
 			break;
 		case AUTOMATIC_MODE:
 			if(timer2_flag == 1){
-//				fsm_automatic_run();
+				fsm_automatic_run();
 				setTimer2(1000);
 			}
 			if(Button1IsPressed()){
@@ -59,7 +59,7 @@ void RunSystem(){
 			break;
 		case PEDES_MODE:
 			if(timer2_flag){
-//				pedestrian_run();
+				pedestrian_run();
 				setTimer2(1000);
 			}
 			break;
